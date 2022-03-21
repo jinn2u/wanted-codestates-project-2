@@ -1,4 +1,5 @@
 {
+  "ignoreFiles": ["src/styles/reset.ts"],
   "extends": [
     "stylelint-config-standard",
     "stylelint-config-prettier",
@@ -12,6 +13,9 @@
     }
   ],
   "rules": {
-    "function-no-unknown": null
+    "function-no-unknown": null,
+    "selector-pseudo-element-no-unknown": null,
+    "value-keyword-case": null,
+    "selector-no-vendor-prefix": null
   }
 }
