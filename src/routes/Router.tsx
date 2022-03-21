@@ -1,6 +1,7 @@
-import UserPage from '@pages/UserPage';
-import KartPage from '@pages/KartPage';
 import { Route, Routes } from 'react-router-dom';
+
+import KartPage from '@pages/KartPage';
+import UserPage from '@pages/UserPage';
 
 const Router = () => {
   return (
