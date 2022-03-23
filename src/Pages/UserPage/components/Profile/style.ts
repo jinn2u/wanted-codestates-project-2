@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const Wrapper = styled.div`
   position: relative;
-  width: 1000px;
+  width: 100%;
   margin-top: 60px;
   background-position: 50%;
   background-size: cover;
@@ -17,6 +17,9 @@ export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   padding-top: 26px;
+  @media (max-width: 539px) {
+    height: 300px;
+  }
 `;
 export const ProfileImage = styled.img`
   width: 164px;
@@ -99,7 +102,7 @@ export const ActionWrapper = styled.div`
   gap: 10px;
   padding-left: 15px;
   margin-top: 20px;
-  @media (max-width: 510px) {
+  @media (max-width: 540px) {
     padding-left: 0;
   }
 `;
